@@ -26,7 +26,7 @@ driver = webdriver.Chrome()  # Use the appropriate WebDriver for your browser
 for x in range(n):
     try:
         # Open the webpage
-        driver.get(f"http://e-books.helwan.edu.eg/storage/29946/index.html#/reader/chapter/{x}")
+        driver.get(f"http://e-books.mostafa.edu.eg/storage/29946/index.html#/reader/chapter/{x}")
 
         # Wait for the div element with the class 'WordSection2' to load
         specific_div = WebDriverWait(driver, 15).until(
